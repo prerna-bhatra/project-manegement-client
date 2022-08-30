@@ -1,0 +1,134 @@
+body {
+  margin: 0px !important;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.nav {
+  height: 30px;
+  /* margin-top: 0; */
+  top: 0px;
+  position: fixed;
+  /* position: sticky; */
+  width: 100%;
+}
+
+.sidebar {
+  margin-top: 100px;
+  /* position: absolute; */
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li {
+  float: left;
+  color: white;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+/* Projects */
+
+.project-list-body table .project-name {
+  list-style: none;
+  cursor: pointer;
+  color: rgb(0, 102, 255);
+}
+
+/* Project  */
+.project-body {
+  margin: 20px 20px 20px 20px;
+  text-align: left;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.task-category {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.main-body {
+  margin-left: 190px;
+  margin-top: 80px;
+}
+.task-card {
+  cursor: pointer;
+  max-width: 400px;
+  min-width: 400px;
+  /* border: 1px solid black; */
+  margin: 2px 2px 2px 2px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+  background-color: white;
+  /* box-shadow : */
+}
+
+.task-grid {
+  background-color: #f4f5f7;
+  /* border: 1px solid black; */
+  margin: 3px !important;
+  /* margin: 3px 3px 3px 3px; */
+  min-width: 400px;
+  min-height: 600px;
+}
+.main-task-body {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.task-details {
+  border: 1px solid grey;
+  text-align: left;
+  min-width: 500px;
+  padding: 40px;
+}
+.task-users {
+  text-align: left;
+  border: 1px solid grey;
+  padding: 40px;
+}
+.task-users ul li {
+  list-style: none;
+}
+
+.left {
+  float: left;
+}
+
+.formControl {
+  width:50%
+}
